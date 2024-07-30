@@ -12,6 +12,16 @@
     width: 50%;
     padding: 10px;
 }
+
+.game_section{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    display:none;
+}
+.game_section p{
+    font-size: xx-large;
+}
 /*--------------------------------------------Index*/
 
 #mains{
@@ -20,11 +30,15 @@
 
 .index_buttons{
     margin:10px;
-    width: fit-content;
+
 }
 
 .index_buttons a{
     padding: 20px;
+}
+
+.hvr-buzz{
+    width:180px;
 }
 
 /*--------------------------------------------Game_one*/
