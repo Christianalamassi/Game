@@ -58,6 +58,20 @@
     cursor: pointer; */
 }
 
+/* Gitting red of some border */
+#one, #two, #three{
+    border-top: none;
+}
+#one, #four, #seven{
+    border-left: none;
+}
+#seven, #eight, #nine{
+    border-bottom: none;
+}
+#nine, #six, #three{
+    border-right: none;
+}
+
 /*--------------------------------------------Game_two*/
 /*--------------------------------------------Game_three*/
 
