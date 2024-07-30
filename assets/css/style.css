@@ -73,6 +73,16 @@
     cursor: pointer; */
 }
 
+.square:hover{
+    background-image:url("../images/x.jpg");
+    background-repeat:no-repeat; 
+    background-position: center;
+    background-size: 100px;
+    align-items: center;
+    justify-content: center;
+    border: none;
+}
+
 /* Gitting red of some border */
 #one, #two, #three{
     border-top: none;
@@ -91,6 +101,7 @@
     align-items: center;
     display: flex;
     justify-content: center;
+    cursor:not-allowed;
 }
 img{
     max-width:100px;
