@@ -129,3 +129,8 @@ Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` f
 ---
 
 Happy coding!
+
+
+https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.vecteezy.com%2Ffree-png%2Fx&psig=AOvVaw3_1pC_L3juuNsjV4oSJeuR&ust=1722437862622000&source=images&cd=vfe&opi=89978449&ved=0CAMQjB1qFwoTCOCw55uDz4cDFQAAAAAdAAAAABAJ
+
+https://www.google.com/url?sa=i&url=https%3A%2F%2Fpngimg.com%2Fimage%2F89709&psig=AOvVaw1MsPewJZgatqt6VPiLvAUH&ust=1722438005520000&source=images&cd=vfe&opi=89978449&ved=0CAMQjB1qFwoTCKig792Dz4cDFQAAAAAdAAAAABAE
