@@ -50,7 +50,7 @@
     padding: 10px;
     text-align: center;
 }
-.tic_tac{
+#tic_tac{
     align-items: center;
     display: flex;
     justify-content: center;
@@ -74,12 +74,12 @@
     cursor: pointer; */
 }
 
-/* .mark:hover{
+.pic:hover{
     background-image:url("../images/xx.png");
     background-repeat:no-repeat; 
     background-position: center;
     background-size: 45px;
-} */
+}
 
 .pic{
     background-repeat:no-repeat; 
