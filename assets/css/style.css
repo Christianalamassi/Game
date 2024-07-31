@@ -12,7 +12,7 @@
     width: 50%;
     padding: 10px;
 }
-
+/*--------------------------------------------Section*/
 .game_section{
     align-items: center;
     display: flex;
@@ -22,6 +22,7 @@
 .game_section p{
     font-size: xx-large;
 }
+
 /*--------------------------------------------Index*/
 
 #mains{
@@ -73,16 +74,20 @@
     cursor: pointer; */
 }
 
-.square:hover{
-    background-image:url("../images/x.jpg");
+/* .mark:hover{
+    background-image:url("../images/xx.png");
     background-repeat:no-repeat; 
     background-position: center;
-    background-size: 100px;
-    align-items: center;
-    justify-content: center;
-    border: none;
-}
+    background-size: 45px;
+} */
 
+.pic{
+    background-repeat:no-repeat; 
+    background-position: center;
+    background-size: 70px;
+    width: 100%;
+    height: 100%;
+}
 /* Gitting red of some border */
 #one, #two, #three{
     border-top: none;
@@ -97,14 +102,8 @@
     border-right: none;
 }
 
-.x_o{
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    cursor:not-allowed;
-}
 img{
-    max-width:100px;
+    max-width:80px;
 }
 
 /*--------------------------------------------Game_two*/

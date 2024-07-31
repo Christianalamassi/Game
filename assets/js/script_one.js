@@ -1,21 +1,39 @@
-var squareOne = document.getElementById('one');
-var squareTow = document.getElementById('two');
-var squareThree = document.getElementById('three');
-var squareFour = document.getElementById('four');
-var squareFive = document.getElementById('five');
-var squareSix = document.getElementById('six');
-var squareseven = document.getElementById('seven');
-var squareEight = document.getElementById('eight');
-var squareNine = document.getElementById('nine');
+const elements = document.querySelectorAll('[data-cell]')
+var player 
+var computer
+var playeTurn
+var computerTurn
+var tic_tacs = document.getElementById('tic_tac')
 var gameSection = document.getElementsByClassName('game_section')
 var results = document.getElementById('result')
 
-function click ({
+elements.forEach(pic =>{
+    pic.addEventListener('click', handleClick, {once:true} )
+})
 
-}) 
+function handleClick(e){
+    var pic = e.target
+    var currentClass = computerTurn? computer:player
+    mark(pic, currentClass)
+}
+
+function mark(pic, currentClass){
+    pic.style.backgroundImage ='url("assets/images/x.jpg")';
+}
+
+// function play(){
+    
+// }
 
 /* 
 function gameOver({
+
+    //check if winning 
+
+    // check if drawing
+
+    //check if losing
+
     if (computer <= player){
             gameSection.style.display = "block";
             result.innerHTML = "You won";
