@@ -24,7 +24,7 @@ window.addEventListener('DOMContentLoaded', () => {
         [2, 4, 6],
         [0, 4, 8],
     ] ;
-    running = false;
+    running = true;
 
     let gameState = ["", "", "", "", "", "", "", "", ""];
 
@@ -40,6 +40,7 @@ window.addEventListener('DOMContentLoaded', () => {
         const currentClass = running ? player : computer
         console.log(currentClass)
         mark(clickedCell, currentClass)
+        switchTurn ()
     }
 
 
@@ -47,8 +48,12 @@ window.addEventListener('DOMContentLoaded', () => {
         clickedCell.classList.add(currentClass)
     }
 
+    function switchTurn () {
+        running = !running
+    }
+
     // function result()
     // function resartGame()
-    // function computerTurn()
+    //function computerTurn()
 
 });

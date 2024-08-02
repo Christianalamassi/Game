@@ -101,20 +101,20 @@
     background:url('/assets/images/x.jpg') ;
     background-repeat:no-repeat; 
     background-position: center;
-    background-size: 45px;
+    background-size: contain;
 }
 
 .pic.imgo{
     background-image : url('/assets/images/o.png') ;
     background-repeat:no-repeat; 
     background-position: center;
-    background-size: 45px;
+    background-size:  contain;
 }
 
 
 /*--------------------------------------------Media Queries*/
 
-@media(min-width: 992px){
+@media(max-width: 992px){
     .center-form {
         padding-top: 30px;
         min-height: 240px;
@@ -129,11 +129,6 @@
     }
 }
 
-@media(max-width:720px){
-    #tic{
-        width: 75%;
-    }
-}
 
 @media(max-width:520px){
     #tic{
