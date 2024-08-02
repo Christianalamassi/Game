@@ -1,79 +1,54 @@
-const elements = document.querySelectorAll('[data-cell]')
-var ticTac = document.getElementById('tic_tac')
-const restartButton = document.getElementById('restart')
+window.addEventListener('DOMContentLoaded', () => {
 
-var player = [
-    [0, 1, 2],
-    [3, 4, 5],
-    [6, 7, 8],
-    [0, 3, 6],
-    [1, 4, 7],
-    [2, 5, 8],
-    [0, 4, 8],
-    [2, 4, 6]
-] 
-var computer = [
-    [0, 1, 2],
-    [3, 4, 5],
-    [6, 7, 8],
-    [0, 3, 6],
-    [1, 4, 7],
-    [2, 5, 8],
-    [0, 4, 8],
-    [2, 4, 6]
-] 
-var playeTurn
-var computerTurn
+    var elements = document.querySelectorAll('[data-cell]');
+    var ticTac = document.getElementById('tic_tac');
+    var textResult = document.getElementById('result')
+    var restartButton = document.getElementById('restart');
 
-var gameSection = document.getElementsByClassName('game_section')
-var results = document.getElementById('result')
-
-elements.forEach(pic =>{
-    pic.addEventListener('click', handleClick, {once:true} )
-})
-
-// restartButton.addEventListener('click', startGame)
+    // var imgx = document.createElement('img');
+    // imgx.src = "/assets/images/x.jpg";
+    // var imgo = document.createElement('img');
+    // imgo.src = "/assets/images/o.png";
 
 
+    var player = 'imgx';
+    var computer = 'imgo';
 
-function handleClick(e){
-    var pic = e.target
-    var currentClass = playeTurn? player:computer
-    mark(pic, currentClass)
-}
+    var winningScore = [
+        [6, 7, 8],
+        [3, 4, 5],
+        [0, 1, 2],
+        [2, 5, 8],
+        [0, 3, 6],
+        [1, 4, 7],
+        [2, 4, 6],
+        [0, 4, 8],
+    ] ;
+    running = false;
 
-function mark(pic, currentClass){
-    pic.style.backgroundImage ='url("assets/images/x.jpg")';
-}
+    let gameState = ["", "", "", "", "", "", "", "", ""];
 
-// function play(){
-    
-// }
+    // restartButton.addEventListener('click', restartGame)
 
-/* 
-function gameOver({
+    elements.forEach(cell =>{
+        cell.addEventListener('click',playerTurn, {once:true})
+    });
 
-    //check if winning 
-
-    // check if drawing
-
-    //check if losing
-
-    if (computer <= player){
-            gameSection.style.display = "block";
-            result.innerHTML = "You won";
+    function playerTurn(cell){
+        const clickedCell = cell.target;
+        console.log(clickedCell)
+        const currentClass = running ? player : computer
+        console.log(currentClass)
+        mark(clickedCell, currentClass)
     }
-    else if (computer == player){
-        gameSection.style.display = "block";
-        result.innerHTML = "Draw!";
-    }
-    else{
-        gameSection.style.display = "block";
-        result.innerHTML = "You lost";
-    }
-})
-*/
 
-// function restartGame(){
 
-// }
+    function mark(clickedCell, currentClass) {
+        clickedCell.classList.add(currentClass)
+    }
+
+    // function result()
+    // function resartGame()
+    // function computerTurn()
+
+});
