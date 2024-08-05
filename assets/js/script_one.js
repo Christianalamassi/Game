@@ -24,11 +24,12 @@ window.addEventListener('DOMContentLoaded', () => {
         [2, 4, 6],
         [0, 4, 8],
     ] ;
-    running = true;
+    running = '';
 
     let gameState = ["", "", "", "", "", "", "", "", ""];
 
     // restartButton.addEventListener('click', restartGame)
+
 
     elements.forEach(cell =>{
         cell.addEventListener('click',playerTurn, {once:true})
@@ -36,11 +37,14 @@ window.addEventListener('DOMContentLoaded', () => {
 
     function playerTurn(cell){
         const clickedCell = cell.target;
-        console.log(clickedCell)
-        const currentClass = running ? player : computer
-        console.log(currentClass)
-        mark(clickedCell, currentClass)
+        const currentClass = running ? computer : player
+        mark(clickedCell, currentClass);
+        checkWin(currentClass)
+        // if checkWin(currentClass){
+        //     gameOver()
+        // }
         switchTurn ()
+        computerTurn()
     }
 
 
@@ -54,6 +58,33 @@ window.addEventListener('DOMContentLoaded', () => {
 
     // function result()
     // function resartGame()
-    //function computerTurn()
 
+    // let the computer make the next move
+    function computerTurn(){
+            const elements = gameState
+                .map((cell, index) => (cell === '' ? index : null))
+                .filter(index => index !== null);
+    
+            if (elements.length === 0) {
+                return;
+            }
+    
+            const randomIndex = elements[Math.floor(Math.random() * elements.length)];
+            board[randomIndex] = 'imgo';
+            document.querySelector(`.cell[data-index='${randomIndex}']`).innerText = 'imgo';
+            document.querySelector(`.cell[data-index='${randomIndex}']`).classList.add('taken');
+            checkResult();
+            if (gameActive) {
+                currentPlayer = 'imgx';
+                updateMessage();
+            }
+        }
+
+    function checkWin(currentClass) {
+        return winningScore.some(combination => {
+            return combination.every(index => {
+            return elements[index].classList.contains(currentClass)
+            })
+        })
+    }
 });
