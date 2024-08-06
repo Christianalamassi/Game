@@ -1,4 +1,4 @@
-[Game](https://8000-christianalamass-game-ferttk67ji5.ws.codeinstitute-ide.net/)
+[Game](https://christianalamassi.github.io/Game/)
 
 
 
