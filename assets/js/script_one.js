@@ -1,9 +1,7 @@
 window.addEventListener('DOMContentLoaded', () => {
 
     var elements = document.querySelectorAll('[data-cell]');
-    var ticTac = document.getElementById('tic_tac');
     var gameSection = document.getElementById('game_section')
-    var restartButton = document.getElementById('restart');
     const results = document.getElementById('result')
     var player = 'imgx';
     var computer = 'imgo';
@@ -17,31 +15,66 @@ window.addEventListener('DOMContentLoaded', () => {
         [2, 4, 6],
         [0, 4, 8],
     ] ;
-    var running
-    var gameState = ["", "", "", "", "", "", "", "", ""];
-
+    var running 
 
     elements.forEach(cell =>{
-        cell.addEventListener('click',playerTurn, {once:true})
+        cell.addEventListener('click',onClick, {once:true})
     });
 
-    function playerTurn(cell){
+    //User interaction with the panel
+    function onClick(cell){
         const clickedCell = cell.target;
-        const currentClass = running ? computer : player
-        mark(clickedCell, currentClass);
-        // computerTurn();
-        if (checkWin(currentClass)){
-            gameover(false)
-            console.log('win')
-        }else if (draw()) {
-            gameover(true)
-            console.log('draw')
-        } else {
-            switchTurn () 
-            console.log('switch')
+        if (!clickedCell.classList.contains(player) && !clickedCell.classList.contains(computer)) {
+            const currentClass = running ? computer : player;
+            mark(clickedCell, currentClass);
+            if (checkWin(currentClass)) {
+                gameover(false);
+            } else if (draw()) {
+                gameover(true);
+            } else {
+                switchTurn();
+                if (running) {
+                    /* Spare time to pretend AI thinks */
+                    let spareTime = ((Math.random() * 1000) + 200).toFixed();
+                    setTimeout(() => {
+                        computerTurn();
+                    }, spareTime);
+                }
+            }
         }
     }
 
+    // Let the computer make the next move
+    function computerTurn() {
+        if (running) {
+            let array = [];
+
+           // Find the remaining square that has not  mark
+            for (let i = 0; i < elements.length; i++) {
+                //prevent the user and computer to add elements to existing elements.
+            if (!elements[i].classList.contains(player) && !elements[i].classList.contains(computer)) {
+                array.push(elements[i]);
+            }
+        }
+            // Get a random box from the remaining tiles
+            if (array.length > 0) {
+                let randomBox = array[Math.floor(Math.random() * array.length)];
+
+                // Mark the cell for the computer
+                mark(randomBox, computer);
+
+                // Check for a win or draw after the computer's move
+                if (checkWin(computer)) {
+                    gameover(false);
+                } else if (draw()) {
+                    gameover(true);
+                } else {
+                    switchTurn();
+                }
+            }
+        }
+    }
+    // Set the mark on the panel
     function mark(clickedCell, currentClass) {
         clickedCell.classList.add(currentClass)
     }
@@ -63,27 +96,6 @@ window.addEventListener('DOMContentLoaded', () => {
         return [...elements].every(cell =>{
             return cell.classList.contains(computer) || cell.classList.contains(player)
         })
-    }
-
-    // let the computer make the next move
-    function computerTurn(){
-        const elements = gameState
-            .map((cell, index) => (cell === '' ? index : null))
-            .filter(index => index !== null);
-
-        if (elements.length === 0) {
-            return;
-        }
-
-        const randomIndex = elements[Math.floor(Math.random() * elements.length)];
-        board[randomIndex] = 'imgo';
-        document.querySelector(`.cell[data-index='${randomIndex}']`).innerText = 'imgo';
-        document.querySelector(`.cell[data-index='${randomIndex}']`).classList.add('taken');
-        checkResult();
-        if (gameActive) {
-            currentPlayer = 'imgx';
-            updateMessage();
-        }
     }
 
     function checkWin(currentClass) {

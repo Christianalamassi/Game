@@ -1,53 +1,53 @@
 // the adopting area of Elements
-const dicesA = document.getElementById('diceA');
-const dicesB = document.getElementById("diceB");
+const diceComputer= document.getElementById('dice-computer');
+const dicePlayer = document.getElementById("dice-player");
 const photos1 = document.getElementById('photo1');
 const photos2 = document.getElementById('photo2');
-let scoreArea1 = document.getElementById('score-area1').innerText;
-let scoreArea2 = document.getElementById('score-area2').innerText;
+let scoreAreaComputer = document.getElementById('score-area-computer').innerText;
+let scoreAreaPlayer = document.getElementById('score-area-player').innerText;
 const wins = document.getElementById('win');
 const results = document.getElementById('result');
 const mains = document.getElementById('main-second');
 
 
 /**function to get random number */
-function faceDiceA() {
+function faceDiceComputer() {
     return Math.ceil(Math.random() * 6);
 }
 
-function faceDiceB() {
+function faceDicePlayer() {
     return Math.ceil(Math.random() * 6);
 }
 
 // function to roll the dice
 function roll() {
-    let fa = faceDiceA();
-    let fb = faceDiceB();
+    let computer = faceDiceComputer();
+    let player = faceDicePlayer();
 
     // the random dice
-    dicesA.innerText = fa;
-    dicesB.innerText = fb;
+    diceComputer.innerText = computer;
+    dicePlayer.innerText = player;
 
     // here where to change the photos according the dice
-    photos1.src = `assets/images/d${fa}.png`;
-    photos2.src = `assets/images/d${fb}.png`;
+    photos1.src = `assets/images/d${computer}.png`;
+    photos2.src = `assets/images/d${player}.png`;
 
     //all the process after the clicking
     //also here the game over screen
-    if (fb > fa) {
-        document.getElementById('score-area2').innerText = `${++scoreArea2}`;
-        if (scoreArea2 >= 15) {
+    if (player > computer) {
+        document.getElementById('score-area-player').innerText = `${++scoreAreaPlayer}`;
+        if (scoreAreaPlayer >= 15) {
             alert("The Game is over, You won");
             mains.style.visibility = 'hidden';
             wins.style.visibility = 'visible';
             results.innerText = `You Won`;
         }
-    } else if (fa === fb) {
-        document.getElementById('score-area1').innerText = `${++scoreArea1}`;
-        document.getElementById('score-area2').innerText = ` ${++scoreArea2}`;
+    } else if (computer === player) {
+        document.getElementById('score-area-computer').innerText = `${++scoreAreaComputer}`;
+        document.getElementById('score-area-player').innerText = ` ${++scoreAreaPlayer}`;
     } else {
-        document.getElementById('score-area1').innerText = `${++scoreArea1}`;
-        if (scoreArea1 >= 15) {
+        document.getElementById('score-area-computer').innerText = `${++scoreAreaComputer}`;
+        if (scoreAreaComputer >= 15) {
             alert("The Game is over, You lost");
             mains.style.visibility = 'hidden';
             wins.style.visibility = 'visible';
@@ -56,6 +56,6 @@ function roll() {
     }
 }
 
-/**the click audio */
-let audio = new Audio();
-audio.src = "assets/audio/mouse.mp3";
+// /**the click audio */
+// let audio = new Audio();
+// audio.src = "assets/audio/mouse.mp3";
