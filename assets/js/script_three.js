@@ -10,11 +10,12 @@ const results = document.getElementById('result');
 const mains = document.getElementById('main-second');
 
 
-/**function to get random number */
+//function to get random number for computer
 function faceDiceComputer() {
     return Math.ceil(Math.random() * 6);
 }
 
+//function to get random number for player
 function faceDicePlayer() {
     return Math.ceil(Math.random() * 6);
 }

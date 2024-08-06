@@ -45,8 +45,20 @@
             <div class="score-area" id="score-area-computer"> 0</div>
         </div>
 
+        
+        <button id ='rolls' onmousedown="audio.play()" aria-label="roll the dice">Throw the Dice</button>
+
         <!-- here added the script of onclick-->
-        <button onclick="roll()" onmousedown="audio.play()" aria-label="roll the dice">Throw the Dice</button>
+        <script>
+            document.getElementById('rolls').onclick = function() {
+                roll()
+                let button = this;
+                button.disabled = true; // unclear the button
+                setTimeout(function() {
+                    button.disabled = false; // view the button
+                }, 350);
+            };
+        </script>
 
         <footer>
             <a class="a-in-game-Page " href="index.html" aria-label="to the home page">Home <i
