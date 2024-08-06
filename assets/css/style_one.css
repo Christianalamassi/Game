@@ -82,14 +82,14 @@
 
 /* X and O images*/
 .pic.imgx{
-    background:url('/assets/images/x.jpg') ;
+    background:url('../images/x.jpg') ;
     background-repeat:no-repeat; 
     background-position: center;
     background-size: contain;
 }
 
 .pic.imgo{
-    background-image : url('/assets/images/o.png') ;
+    background-image : url('../images/o.png') ;
     background-repeat:no-repeat; 
     background-position: center;
     background-size:  contain;
