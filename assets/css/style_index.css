@@ -52,6 +52,21 @@ button[type="submit"] {
     color: #fafafa;
 }
 
+/*--------------------------------------------info page*/
+
+#info{
+    text-align: center;
+    background-color: rgb(7, 64, 234);
+}
+
+.info{
+    background-color: rgba(1, 1, 1, 0.2);
+    border-style: solid;
+    text-align: center;
+    margin: 8vh 26vw;
+    color: white;
+    line-height: 6.5vh;
+}
 
 /*--------------------------------------------Media Queries*/
 
