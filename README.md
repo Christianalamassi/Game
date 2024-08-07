@@ -23,6 +23,9 @@ This section provides an navigation buttons to the games or contact the programm
 - In the bottom the user gets the options of clicking the "Restart" button or the "Home" button, both easily to identify with added symbols.
 - At the end of the game, meaning either the computer or the user reached 15 points altogether, the user is shown an alert telling them that the game ist over and if they won or lost. The user has to click the "Okay" button on the alert. The screen than shows the result of the game again and the user then gets to choose whether to play again or go back to the homepage.
 
+### contact
+- It has three inputs, name, email, and request, all of them are required to be filled. 
+- It has two buttons, one to submit the request and the other to return to the home page.
 
 ## Technologies Used
 - HTML was used as the foundation of the site.
@@ -31,6 +34,7 @@ This section provides an navigation buttons to the games or contact the programm
 - Gitpod was used for the version control of the website.
 - GitHub was used to host the code of the website.
 - Bootstrap framwork for styling
+- gmail to submit the request to email
 
 ## Design
 The color blue rgba(6, 37, 132, 0.4) and rgb(7, 64, 234) was used in the background because it is very comfortable for the eyes.
