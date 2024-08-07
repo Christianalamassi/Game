@@ -17,7 +17,9 @@ This section provides an navigation buttons to the games or contact the programm
 - At the top of the page, the user can read the title of the game.
 - To win the game, you need to set your "X" in specific patterns which can be in a row, line, column, or curve.
 - At the bottom, the user gets the option to click on the "Restart" button or the "Home" button, both of which can be easily identified by the added icons.
-- At the end of the game, i.e. the computer or the user wins, it will display the result of the game to tell them that the game is over and whether they have won or lost, then they can choose whether to play again or go back to the home page
+- At the end of the game, i.e. the computer or the user wins, it will display the result of the game to tell them that the game is over and whether they have won or lost, then they can choose whether to play again or go back to the home page.
+
+<img src="/assets/images/game1.png">
 
 ### Game Dice
 - This section will allow the user to play the "Dice Game".
@@ -26,6 +28,8 @@ This section provides an navigation buttons to the games or contact the programm
 - In between the pictures it shows the score that adds up the score of each round (as in dice throw) for both players. The user will see how many points they got as well as how many points the computer got. Below that there is the "Throw - Dice" button, easily to find for the user.
 - In the bottom the user gets the options of clicking the "Restart" button or the "Home" button, both easily to identify with added symbols.
 - At the end of the game, meaning either the computer or the user reached 15 points altogether, the user is shown an alert telling them that the game ist over and if they won or lost. The user has to click the "Okay" button on the alert. The screen than shows the result of the game again and the user then gets to choose whether to play again or go back to the homepage.
+
+<img src="/assets/images/game2.png">
 
 ### info
 It includes two descriptions for each game it descript how to play and win.
