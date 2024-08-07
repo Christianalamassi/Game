@@ -7,10 +7,10 @@
 ## Features
 On the first page of the program is the navigation site and then to the game page. In the following sectors, I will go into details for each site individually.
 
-<img src="/assets/images/indexhompa.png">
-
 ### Homepage
 This section provides an navigation buttons to the games or contact the programmer.
+
+<img src="/assets/images/indexhompa.png">
 
 ### Game Tic tac toe
 - The section will allow the user to play X against the computer O.
@@ -32,7 +32,7 @@ This section provides an navigation buttons to the games or contact the programm
 <img src="/assets/images/game2.png">
 
 ### info
-It includes two descriptions for each game it descript how to play and win.
+It includes two descriptions for each game it describes how to play and win.
 <img src="/assets/images/info.png">
 
 ### contact
