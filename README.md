@@ -30,9 +30,12 @@ This section provides an navigation buttons to the games or contact the programm
 ### info
 It includes two descriptions for each game it descript how to play and win.
 <img src="/assets/images/info.png">
+
 ### contact
 - It has three inputs, name, email, and request, all of them are required to be filled. 
 - It has two buttons, one to submit the request and the other to return to the home page.
+
+<img src="/assets/images/contact.png">
 
 ## Technologies Used
 - HTML was used as the foundation of the site.
