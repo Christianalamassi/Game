@@ -1,132 +1,111 @@
-[Game](https://christianalamassi.github.io/Game/)
+# [Game](https://christianalamassi.github.io/Game/)
+
+"Game" includes two easy games to play, user-friendly games for anyone who is looking for a nice pastime without having to concentrate too much, for example when using public transportation or taking a break. The user gets to play against the computer. The games are('tic tac toe') and ('throw the dice'), and the result shows both the player's as well as the computer's. When the game is over, it allows the user to play again which is provided also with the click of one button. The games are programmed with JavaScript and the website is designed with HTML/CSS.
+
+## Features
+On the first page of the program is the navigation site and then to the game page. In the following sectors, I will go into details for each site individually.
+
+### Homepage
+This section provides an navigation buttons to the games or contact the programmer.
+
+### Game Tic tac toe
+- The section will allow the user to play X against the computer O.
+- At the top of the page, the user can read the title of the game.
+- To win the game, you need to set your "X" in specific patterns which can be in a row, line, column, or curve.
+- At the bottom, the user gets the option to click on the "Restart" button or the "Home" button, both of which can be easily identified by the added icons.
+- At the end of the game, i.e. the computer or the user wins, it will display the result of the game to tell them that the game is over and whether they have won or lost, then they can choose whether to play again or go back to the home page
+
+### Game Dice
+- This section will allow the user to play the "Dice Game".
+- On the top of the page the user can read the title of the game.
+- Underneath are two pictures, each show two dice. Each picture shows the score of each dice throw, the left one shows the computer's score, the one on the right the user's score (which is zero for both at the start of the game, since none of the players has thrown the dice yet.).
+- In between the pictures it shows the score that adds up the score of each round (as in dice throw) for both players. The user will see how many points they got as well as how many points the computer got. Below that there is the "Throw - Dice" button, easily to find for the user.
+- In the bottom the user gets the options of clicking the "Restart" button or the "Home" button, both easily to identify with added symbols.
+- At the end of the game, meaning either the computer or the user reached 15 points altogether, the user is shown an alert telling them that the game ist over and if they won or lost. The user has to click the "Okay" button on the alert. The screen than shows the result of the game again and the user then gets to choose whether to play again or go back to the homepage.
+
+
+## Technologies Used
+- HTML was used as the foundation of the site.
+- CSS was used to add the style and layout of the site.
+- JavaScript was used for interaction
+- Gitpod was used for the version control of the website.
+- GitHub was used to host the code of the website.
+
+## Design
+The color blue rgba(6, 37, 132, 0.4) and rgb(7, 64, 234) was used in the background because it is very comfortable for the eyes.
+
+Added the scoring area in the middle, in the middle of the game area to make it easy to follow the scores.
+
+I used a different set of fonts for decoration.
+
+## Accessability
+I confirmed that the colors and fonts are clear for the users, by running it through the lighthouse in divtools.
 
 
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+## Testing
+I tested my project in three different browsers (Chrome, Edge and Firefox) and the results were satisfying.
+Chrome
 
-You can safely delete this README.md file or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **June 18, 2024**
 
-## Gitpod Reminders
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+Edge
 
-`python3 -m http.server`
 
-A blue button should appear to click: _Make Public_,
+FireFox
 
-Another blue button should appear to click: _Open Browser_.
 
-To run a backend Python file, type `python3 app.py` if your Python file is named `app.py`, of course.
+The game was tested on different screen sizes (laptop screens, desktop screens, tablet screens and phone screens) and I was content with the results here as well.
 
-A blue button should appear to click: _Make Public_,
 
-Another blue button should appear to click: _Open Browser_.
 
-By Default, Gitpod gives you superuser security privileges. Therefore, you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
 
-To log into the Heroku toolbelt CLI:
+The game is easy to use and play, the header and "About the game" are easy to understand for the user, even the game itself is very simple to understand.
+Validator Testing
+HTML
+No errors were returned when passing through the official W3C validator
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+CSS
+No errors were found when passing through the official (Jigsaw) validator
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you, so do not share it. If you accidentally make it public, you can create a new one with _Regenerate API Key_.
+JavaScript
+Some warnings were found: Jshint validator
 
-### Connecting your Mongo database
+There are 3 functions in this file.
 
-- **Connect to Mongo CLI on a IDE**
-- navigate to your MongoDB Clusters Sandbox
-- click **"Connect"** button
-- select **"Connect with the MongoDB shell"**
-- select **"I have the mongo shell installed"**
-- choose **mongosh (2.0 or later)** for : **"Select your mongo shell version"**
-- choose option: **"Run your connection string in your command line"**
-- in the terminal, paste the copied code `mongo "mongodb+srv://<CLUSTER-NAME>.mongodb.net/<DBname>" --apiVersion 1 --username <USERNAME>`
-  - replace all `<angle-bracket>` keys with your own data
-- enter password _(will not echo **\*\*\*\*** on screen)_
+Function with the largest signature take 0 arguments, while the median is 0.
 
-------
+Largest function has 21 statements in it, while the median is 1.
 
-## Release History
+The most complex function has a cyclomatic complexity value of 5 while the median is 1.
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
 
-**June 18, 2024,** Add Mongo back into template
 
-**June 14, 2024,** Temporarily remove Mongo until the key issue is resolved
-
-**May 28 2024:** Fix Mongo and Links installs
-
-**April 26 2024:** Update node version to 16
-
-**September 20 2023:** Update Python version to 3.9.17.
-
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
-
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
-
-**July 2 2021:** Remove extensions that are not available in Open VSX.
-
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
-
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
-
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
-
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
-
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
+Unfixed Bugs
+In the end of the game, the score area will show you the result after 14 points, instead of 15 points.
+The click sound isn't available with volume control but it is not loud. Also it is slower than the click action.
+Deployment
+The site was deployed to GitHub pages through the following steps:
+In the GitHub repository, navigate to the Settings tab
+From the source section drop-down menu, select the main
+Once the main has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+The live link is here Dice Game
+Credits
+Content
+Websits were used in coding the game
+To test HTML code W3
+To test CSS code css-validator
+To test JavaScript Jshint validator
+To check the program on different screen devices amiresponsive
+To get icons for buttons fontawesome
+For the icon of the website ficon
+For font set googlefont
+To check the program in different screen sizes responsiveviewer
+Learning from W3school
+Inspiration from Love Maths
+Media
+The images were taken from pngimg
+The click sound was taken from pixabay
 
 Happy coding!
 
