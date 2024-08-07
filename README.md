@@ -2,6 +2,8 @@
 
 "Game" includes two easy games to play, user-friendly games for anyone who is looking for a nice pastime without having to concentrate too much, for example when using public transportation or taking a break. The user gets to play against the computer. The games are('tic tac toe') and ('throw the dice'), and the result shows both the player's as well as the computer's. When the game is over, it allows the user to play again which is provided also with the click of one button. The games are programmed with JavaScript and the website is designed with HTML/CSS.
 
+<img src="/assets/images/recc.png">
+
 ## Features
 On the first page of the program is the navigation site and then to the game page. In the following sectors, I will go into details for each site individually.
 
