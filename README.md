@@ -30,6 +30,7 @@ This section provides an navigation buttons to the games or contact the programm
 - JavaScript was used for interaction
 - Gitpod was used for the version control of the website.
 - GitHub was used to host the code of the website.
+- Bootstrap framwork for styling
 
 ## Design
 The color blue rgba(6, 37, 132, 0.4) and rgb(7, 64, 234) was used in the background because it is very comfortable for the eyes.
