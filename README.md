@@ -87,10 +87,10 @@ Chrome
 
 ### Lighthouse
 <img src="/assets/images/ligh4.png">
-<img src="/assets/images/ligh1.png">
-<img src="/assets/images/ligh2.png">
-<img src="/assets/images/ligh3.png">
-<img src="/assets/images/ligh5.png">
+<img src="/assets/images/light1.png">
+<img src="/assets/images/light2.png">
+<img src="/assets/images/light3.png">
+<img src="/assets/images/light5.png">
 
 ## Validator Testing
 
