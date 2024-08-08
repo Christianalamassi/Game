@@ -15,9 +15,9 @@ This section provides an navigation buttons to the games or contact the programm
 ### Game Tic tac toe
 - The section will allow the user to play X against the computer O.
 - At the top of the page, the user can read the title of the game.
-- To win the game, you need to set your "X" in specific patterns which can be in a row, line, column, or curve.
+- To win the game, you need to set your "X" in a specific pattern which can be in a row, column, or curve.
 - At the bottom, the user gets the option to click on the "Restart" button or the "Home" button, both of which can be easily identified by the added icons.
-- At the end of the game, i.e. the computer or the user wins, it will display the result of the game to tell them that the game is over and whether they have won or lost, then they can choose whether to play again or go back to the home page.
+- At the end of the game, either the computer or the user wins, it will display the result of the game to tell them that the game is over and whether they have won or lost, then they can choose whether to play again or go back to the home page.
 
 <img src="/assets/images/game1.png">
 
