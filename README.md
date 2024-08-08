@@ -42,20 +42,31 @@ It includes two descriptions for each game it describes how to play and win.
 <img src="/assets/images/contact.png">
 
 ## Technologies Used
-- HTML was used as the foundation of the site.
-- CSS was used to add the style and layout of the site.
-- JavaScript was used for interaction
-- Gitpod was used for the version control of the website.
-- GitHub was used to host the code of the website.
-- Bootstrap framwork for styling
-- gmail to submit the request to email
+
+### Languages
+- [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML) was used as the foundation of the site.
+- [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) was used to add the style and layout of the site.
+- [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) was used for interaction
+
+### Frameworks
+- [Bootstrap](https://getbootstrap.com/) framwork for styling
+
+### Others
+- [Gitpod](https://www.gitpod.io/) was used for the version control of the website.
+- [Font-Awesome](https://fontawesome.com/) For creating attractive UX with icons responsiveness.
+- [Google-Fonts](https://fonts.google.com/) for typography
+- [GitHub](https://github.com/) was used to host the code of the website.
+- [gmail](https://mail.google.com/) to submit the request to email.
+- [Favicon](https://www.favicon.cc/) Used for generating the website favicon.
+- [amiresponsive](https://ui.dev/amiresponsive) Used to check responsive screen.
+- [JsHint](https://jshint.com/) used for validating the javascript code.
+- [Jigsaw](https://jigsaw.w3.org/css-validator/) CSS Validator Used for validating the CSS.
+- [W3C](https://validator.w3.org/#validate_by_input) HTML Validator Used for validating the HTML.
+- [Chrome-Del-Tools](https://developer.chrome.com/docs/devtools/) For debugging the project.
+- [emojipedia](https://emojipedia.org/large-red-square) for emojis.
 
 ## Design
-The color blue rgba(6, 37, 132, 0.4) and rgb(7, 64, 234) was used in the background because it is very comfortable for the eyes.
-
-Added the scoring area in the middle, in the middle of the game area to make it easy to follow the scores.
-
-I used a different set of fonts for decoration.
+The colors 🟦,🟩, and ⬛ was used in the background because it is very comfortable for the eyes. Other colors were used as well as🟧,⬜,and🟥
 
 ## Accessability
 I confirmed that the colors and fonts are clear for the users, by running it through the lighthouse in divtools.
@@ -63,54 +74,49 @@ I confirmed that the colors and fonts are clear for the users, by running it thr
 
 
 ## Testing
-I tested my project in three different browsers (Chrome, Edge and Firefox) and the results were satisfying.
+
+### Manually testing
+
+- I tested my project in three different browsers (Chrome, Edge and Firefox) and the results were satisfying.
 Chrome
 
+- The game was tested on different screen sizes (laptop screens, desktop screens, tablet screens and phone screens) and I was content with the results here as well.
 
 
-Edge
+- The game is easy to use and play, the header and "About the game" are easy to understand for the user, even the game itself is very simple to understand.
 
+### Lighthouse
+<img src="/assets/images/ligh4.png">
+<img src="/assets/images/ligh1.png">
+<img src="/assets/images/ligh2.png">
+<img src="/assets/images/ligh3.png">
+<img src="/assets/images/ligh5.png">
 
-FireFox
+## Validator Testing
 
-
-The game was tested on different screen sizes (laptop screens, desktop screens, tablet screens and phone screens) and I was content with the results here as well.
-
-
-
-
-The game is easy to use and play, the header and "About the game" are easy to understand for the user, even the game itself is very simple to understand.
-Validator Testing
-HTML
+### HTML
 No errors were returned when passing through the official W3C validator
 
-CSS
+### CSS
 No errors were found when passing through the official (Jigsaw) validator
 
-JavaScript
+### JavaScript
 Some warnings were found: Jshint validator
 
-There are 3 functions in this file.
-
-Function with the largest signature take 0 arguments, while the median is 0.
-
-Largest function has 21 statements in it, while the median is 1.
-
-The most complex function has a cyclomatic complexity value of 5 while the median is 1.
-
-
-
-Unfixed Bugs
+## Unfixed Bugs
 In the end of the game, the score area will show you the result after 14 points, instead of 15 points.
 The click sound isn't available with volume control but it is not loud. Also it is slower than the click action.
-Deployment
+
+## Deployment
 The site was deployed to GitHub pages through the following steps:
 In the GitHub repository, navigate to the Settings tab
 From the source section drop-down menu, select the main
 Once the main has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 The live link is here Dice Game
-Credits
-Content
+
+## Credits
+
+### Content
 Websits were used in coding the game
 To test HTML code W3
 To test CSS code css-validator
@@ -122,7 +128,8 @@ For font set googlefont
 To check the program in different screen sizes responsiveviewer
 Learning from W3school
 Inspiration from Love Maths
-Media
+
+### Media
 The images were taken from pngimg
 The click sound was taken from pixabay
 
