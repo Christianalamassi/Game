@@ -131,17 +131,17 @@ The live link is here [Game](https://christianalamassi.github.io/Game/).
 
 ### Content
 Websits were used in coding the game
-To test HTML code [HTML-validator](https://validator.w3.org/#validate_by_input)
-To test CSS code [css-validator](https://jigsaw.w3.org/css-validator/)
-To test JavaScript [Jshint validator](https://jshint.com/)
-To check the program on different screen devices [amiresponsive](https://ui.dev/amiresponsive)
+- To test HTML code [HTML-validator](https://validator.w3.org/#validate_by_input)
+- To test CSS code [css-validator](https://jigsaw.w3.org/css-validator/)
+- To test JavaScript [Jshint validator](https://jshint.com/)
+- To check the program on different screen devices [amiresponsive](https://ui.dev/amiresponsive)
 To get icons for buttons [fontawesome](https://fontawesome.com/)
-For the icon of the website [ficon](https://www.favicon.cc/)
-For font set [googlefont](https://fonts.google.com/)
-Learning from [W3school](https://www.w3schools.com/js/default.asp)
-Inspiration from (Love Maths)[https://learn.codeinstitute.net/login?next=/courses/course-v1%3ACodeInstitute%2BLM101%2B2021_T1/courseware/2d651bf3f23e48aeb9b9218871912b2e/78f3c10a937c4fe09640c7c0098d16bd/%3Fchild%3Dfirst]
+- For the icon of the website [ficon](https://www.favicon.cc/)
+- For font set [googlefont](https://fonts.google.com/)
+- Learning from [W3school](https://www.w3schools.com/js/default.asp)
+- Inspiration from [Love Maths](https://learn.codeinstitute.net/login?next=/courses/course-v1%3ACodeInstitute%2BLM101%2B2021_T1/courseware/2d651bf3f23e48aeb9b9218871912b2e/78f3c10a937c4fe09640c7c0098d16bd/%3Fchild%3Dfirst)
 
 ### Media
-The images were taken from [pngimg](https://pngimg.com/)
-The click sound was taken from [pixabay](https://pixabay.com/sound-effects/search/button-click/)
-The click sound was taken from[vecteezy](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.vecteezy.com%2Ffree-png%2Fx&psig=AOvVaw3_1pC_L3juuNsjV4oSJeuR&ust=1722437862622000&source=images&cd=vfe&opi=89978449&ved=0CAMQjB1qFwoTCOCw55uDz4cDFQAAAAAdAAAAABAJ)
+- The images were taken from [pngimg](https://pngimg.com/)
+- The click sound was taken from [pixabay](https://pixabay.com/sound-effects/search/button-click/)
+- The click sound was taken from[vecteezy](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.vecteezy.com%2Ffree-png%2Fx&psig=AOvVaw3_1pC_L3juuNsjV4oSJeuR&ust=1722437862622000&source=images&cd=vfe&opi=89978449&ved=0CAMQjB1qFwoTCOCw55uDz4cDFQAAAAAdAAAAABAJ)
