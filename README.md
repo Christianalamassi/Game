@@ -135,7 +135,7 @@ Websits were used in coding the game
 - To test CSS code [css-validator](https://jigsaw.w3.org/css-validator/)
 - To test JavaScript [Jshint validator](https://jshint.com/)
 - To check the program on different screen devices [amiresponsive](https://ui.dev/amiresponsive)
-To get icons for buttons [fontawesome](https://fontawesome.com/)
+- To get icons for buttons [fontawesome](https://fontawesome.com/)
 - For the icon of the website [ficon](https://www.favicon.cc/)
 - For font set [googlefont](https://fonts.google.com/)
 - Learning from [W3school](https://www.w3schools.com/js/default.asp)
