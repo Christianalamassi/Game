@@ -95,47 +95,53 @@ Chrome
 ## Validator Testing
 
 ### HTML
-No errors were returned when passing through the official W3C validator
+No errors were returned when passing through the official W3C validator.
+<img src="/assets/images/gameone.png">
+I kept the warning for UX reasons.
+<img src="/assets/images/gametwo.png">
+<img src="/assets/images/index.png">
+The warning was kept because I couldn't delete the type so that the js would continue sending to the email correctly.
+<img src="/assets/images/htmlcontact.png">
+<img src="/assets/images/infohtml.png">
 
 ### CSS
 No errors were found when passing through the official (Jigsaw) validator
+<img src="/assets/images/indexcss.png">
+<img src="/assets/images/onecss.png">
+<img src="/assets/images/twocss.png">
 
 ### JavaScript
-Some warnings were found: Jshint validator
+<img src="/assets/images/twojs.png">
+<img src="/assets/images/onejs.png">
+
 
 ## Unfixed Bugs
-In the end of the game, the score area will show you the result after 14 points, instead of 15 points.
-The click sound isn't available with volume control but it is not loud. Also it is slower than the click action.
+- At the end of the tic tac game, the scoring area will show you the result before the last X or O is added to the panel.
+
+- In the end of the dice game, the scoring area will show you the result after 14 points, instead of 15 points.
 
 ## Deployment
 The site was deployed to GitHub pages through the following steps:
 In the GitHub repository, navigate to the Settings tab
 From the source section drop-down menu, select the main
 Once the main has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
-The live link is here Dice Game
+The live link is here [Game](https://christianalamassi.github.io/Game/).
 
 ## Credits
 
 ### Content
 Websits were used in coding the game
-To test HTML code W3
-To test CSS code css-validator
-To test JavaScript Jshint validator
-To check the program on different screen devices amiresponsive
-To get icons for buttons fontawesome
-For the icon of the website ficon
-For font set googlefont
-To check the program in different screen sizes responsiveviewer
-Learning from W3school
-Inspiration from Love Maths
+To test HTML code [HTML-validator](https://validator.w3.org/#validate_by_input)
+To test CSS code [css-validator](https://jigsaw.w3.org/css-validator/)
+To test JavaScript [Jshint validator](https://jshint.com/)
+To check the program on different screen devices [amiresponsive](https://ui.dev/amiresponsive)
+To get icons for buttons [fontawesome](https://fontawesome.com/)
+For the icon of the website [ficon](https://www.favicon.cc/)
+For font set [googlefont](https://fonts.google.com/)
+Learning from [W3school](https://www.w3schools.com/js/default.asp)
+Inspiration from (Love Maths)[https://learn.codeinstitute.net/login?next=/courses/course-v1%3ACodeInstitute%2BLM101%2B2021_T1/courseware/2d651bf3f23e48aeb9b9218871912b2e/78f3c10a937c4fe09640c7c0098d16bd/%3Fchild%3Dfirst]
 
 ### Media
-The images were taken from pngimg
-The click sound was taken from pixabay
-
-Happy coding!
-
-
-https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.vecteezy.com%2Ffree-png%2Fx&psig=AOvVaw3_1pC_L3juuNsjV4oSJeuR&ust=1722437862622000&source=images&cd=vfe&opi=89978449&ved=0CAMQjB1qFwoTCOCw55uDz4cDFQAAAAAdAAAAABAJ
-
-https://www.google.com/url?sa=i&url=https%3A%2F%2Fpngimg.com%2Fimage%2F89709&psig=AOvVaw1MsPewJZgatqt6VPiLvAUH&ust=1722438005520000&source=images&cd=vfe&opi=89978449&ved=0CAMQjB1qFwoTCKig792Dz4cDFQAAAAAdAAAAABAE
+The images were taken from [pngimg](https://pngimg.com/)
+The click sound was taken from [pixabay](https://pixabay.com/sound-effects/search/button-click/)
+The click sound was taken from[vecteezy](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.vecteezy.com%2Ffree-png%2Fx&psig=AOvVaw3_1pC_L3juuNsjV4oSJeuR&ust=1722437862622000&source=images&cd=vfe&opi=89978449&ved=0CAMQjB1qFwoTCOCw55uDz4cDFQAAAAAdAAAAABAJ)
