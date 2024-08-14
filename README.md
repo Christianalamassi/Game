@@ -35,12 +35,6 @@ This section provides an navigation buttons to the games or contact the programm
 It includes two descriptions for each game it describes how to play and win.
 <img src="/assets/images/info.png">
 
-### contact
-- It has three inputs, name, email, and request, all of them are required to be filled. 
-- It has two buttons, one to submit the request and the other to return to the home page.
-
-<img src="/assets/images/contact.png">
-
 ## Technologies Used
 
 ### Languages
@@ -56,7 +50,6 @@ It includes two descriptions for each game it describes how to play and win.
 - [Font-Awesome](https://fontawesome.com/) For creating attractive UX with icons responsiveness.
 - [Google-Fonts](https://fonts.google.com/) for typography
 - [GitHub](https://github.com/) was used to host the code of the website.
-- [gmail](https://mail.google.com/) to submit the request to email.
 - [Favicon](https://www.favicon.cc/) Used for generating the website favicon.
 - [amiresponsive](https://ui.dev/amiresponsive) Used to check responsive screen.
 - [JsHint](https://jshint.com/) used for validating the javascript code.
@@ -70,8 +63,6 @@ The colors 🟦,🟩, and ⬛ was used in the background because it is very comf
 
 ## Accessability
 I confirmed that the colors and fonts are clear for the users, by running it through the lighthouse in divtools.
-
-
 
 ## Testing
 
@@ -100,8 +91,6 @@ No errors were returned when passing through the official W3C validator.
 I kept the warning for UX reasons.
 <img src="/assets/images/gametwo.png">
 <img src="/assets/images/index.png">
-The warning was kept because I couldn't delete the type so that the js would continue sending to the email correctly.
-<img src="/assets/images/htmlcontact.png">
 <img src="/assets/images/infohtml.png">
 
 ### CSS
