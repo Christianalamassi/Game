@@ -80,7 +80,6 @@ Chrome
 <img src="/assets/images/ligh4.png">
 <img src="/assets/images/light1.png">
 <img src="/assets/images/light2.png">
-<img src="/assets/images/light3.png">
 <img src="/assets/images/light5.png">
 
 ## Validator Testing
@@ -102,7 +101,6 @@ No errors were found when passing through the official (Jigsaw) validator
 ### JavaScript
 <img src="/assets/images/twojs.png">
 <img src="/assets/images/onejs.png">
-
 
 ## Unfixed Bugs
 - At the end of the tic tac game, the scoring area will show you the result before the last X or O is added to the panel.
