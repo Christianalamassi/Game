@@ -8,7 +8,7 @@
 On the first page of the program is the navigation site and then to the game page. In the following sectors, I will go into details for each site individually.
 
 ### Homepage
-This section provides an navigation buttons to the games or contact the programmer.
+This section provides an navigation buttons to the games and to information page.
 
 <img src="/assets/images/indexhompa.png">
 
