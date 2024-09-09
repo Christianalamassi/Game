@@ -73,9 +73,7 @@ Chrome
 
 - The game was tested on different screen sizes (laptop screens, desktop screens, tablet screens and phone screens) and I was content with the results here as well.
 
-
-- The game is easy to use and play, the header and "About the game" are easy to understand for the user, even the game itself is very simple to understand.
-
+- The game is easy to use and play with a short description of each game.
 ### Lighthouse
 <img src="/assets/images/ligh4.png">
 <img src="/assets/images/light1.png">
